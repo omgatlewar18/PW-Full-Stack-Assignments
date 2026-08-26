@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.navbar{
+    position:sticky;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0px 20px 100px rgba(103, 53, 146, 0.1);
+    background: #9d988d;
+    z-index: 1;
+
+}
+.navbar-nav{
+    padding: 15px 20px;
+    list-style: none;
+    vertical-align: middle;
+}
+.nav-item{
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 0px;
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.nav-link:hover{
+    color: black;
+}
+
+article h1{
+font-size:40px;
+}
+.content{
+    padding: 30px;
+    background:linear-gradient( 90deg, #7e4ce1, #e4bcbc);
+    height: 100vh;
+}
+
+.lang-image-float-right{
+    
+    float: right;
+    margin-left: 10px;
+}
+section img{
+    width: 130px;
+}
+
+.lang-image-float-left{
+    
+    float:left;
+    margin-right: 15px;
+}
+.bot-icon img{
+width: 100px;
+}
+.bot-icon{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
